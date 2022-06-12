@@ -1,8 +1,8 @@
 function listDivs() {
-    let textDiv = document.querySelectorAll('div#text > p');
+    let textDivParagraphs = document.querySelectorAll('div#text > p');
 
-    for( let i = 0; i < textDiv.length; i += 1){
-        console.log(`Selector text ${i} : ${textDiv[i].innerHTML}`);
+    for( let i = 0; i < textDivParagraphs.length; i += 1){
+        console.log(`Selector text ${i} : ${textDivParagraphs[i].innerHTML}`);
     }
 
 }

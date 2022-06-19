@@ -13,7 +13,7 @@ secondButton.addEventListener("dblclick", function(){
 });
 
 thirdButton.addEventListener("mousedown", function(){
-    document.body.style.background = '#FFEA00';
+    document.body.style.background = '#EADDCA';
 });
 
 thirdButton.addEventListener("mouseup", function(){
@@ -21,7 +21,7 @@ thirdButton.addEventListener("mouseup", function(){
 });
 
 link.addEventListener("mouseover", function(){
-    document.body.style.background = '#EADDCA';
+    document.body.style.background = '#FFEA00';
 });
 
 link.addEventListener("mouseout", function(){
